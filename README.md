@@ -59,7 +59,7 @@ The system was validated using a custom **LLM-as-a-Judge** evaluation suite writ
 
 **Result:** The system achieved perfect scores on valid inputs, demonstrating robust tool usage and context retention.
 
-![Evaluation Report Card](INSERT_LINK_TO_YOUR_REPORT_CARD_SCREENSHOT_HERE)
+![Evaluation Report Card](Report_Card.png)
 
 ---
 
