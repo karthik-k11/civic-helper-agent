@@ -1,6 +1,6 @@
 # The Civic-Helper: Multi-Agent A2A System for Social Good
 
-![Project Thumbnail](INSERT_LINK_TO_YOUR_THUMBNAIL_IMAGE_HERE)
+![Project Thumbnail]()
 
 ### 🏆 Project Pitch
 A specialized AI system designed to empower citizens by automatically drafting and dispatching professional letters to local government officials. It helps users resolve community issues like infrastructure repairs and public safety concerns by turning a complex bureaucratic process into a simple, friendly chat.
