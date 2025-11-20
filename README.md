@@ -27,7 +27,7 @@ The system uses a **"Front-End" Agent** to interview the user and gather details
 ## 🏗️ Technical Architecture
 This project demonstrates advanced Agentic AI concepts by utilizing a **Multi-Agent System** orchestrated with the Google Agent Development Kit (ADK).
 
-![Architecture Diagram](The civic Helper Technical Architecture.png)
+![Architecture Diagram](The_Civic_Helper_Technical_Architecture.png)
 
 ### **1. Agent 1: The "Community Advocate" (Front-End)**
 * **Role:** Acts as the user interface. It is empathetic, patient, and encouraging.
@@ -73,9 +73,13 @@ The system was validated using a custom **LLM-as-a-Judge** evaluation suite writ
 ### 🛠️ Technologies Used
 * **Google Gemini 2.5 Flash-Lite**
 * **Google Agent Development Kit (ADK)**
-* **Agent-to-Agent (A2A) Protocol**
+* **Agent-to-Agent (A2A) Protocol:** Implemented client-server communication between the frontend Advocate agent and the backend Drafter agent server.
 * **Gradio UI**
 * **Python AsyncIO**
+* **Sequential Multi-Agent System:** Orchestrated a two-step flow (Interview Drafting) using specialized agents (Advocate & Drafter).
+* **Sessions & Memory:** Utilized InMemorySessionService to retain user context and details across multiple conversation turns.
+* **Custom Tools:** Built a Python-based tool (send_email_to_city) to simulate real-world actions like email dispatch.
+* **LLM-Powered:** Leveraged Google Gemini 2.5 Flash-Lite as the reasoning engine for both agents.
 
 ---
 *Built for the Google AI Agents Intensive Capstone Project.*
