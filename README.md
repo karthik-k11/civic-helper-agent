@@ -27,7 +27,7 @@ The system uses a **"Front-End" Agent** to interview the user and gather details
 ## 🏗️ Technical Architecture
 This project demonstrates advanced Agentic AI concepts by utilizing a **Multi-Agent System** orchestrated with the Google Agent Development Kit (ADK).
 
-![Architecture Diagram](INSERT_LINK_TO_YOUR_ARCHITECTURE_DIAGRAM_HERE)
+![Architecture Diagram](The civic Helper Technical Architecture.png)
 
 ### **1. Agent 1: The "Community Advocate" (Front-End)**
 * **Role:** Acts as the user interface. It is empathetic, patient, and encouraging.
