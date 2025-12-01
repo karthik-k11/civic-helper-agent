@@ -82,4 +82,4 @@ The system was validated using a custom **LLM-as-a-Judge** evaluation suite writ
 * **LLM-Powered:** Leveraged Google Gemini 2.5 Flash-Lite as the reasoning engine for both agents.
 
 ---
-*Built for the Google AI Agents Intensive Capstone Project.*
+Crafted as a flagship submission for the Google AI Agents Intensive Capstone Project.
