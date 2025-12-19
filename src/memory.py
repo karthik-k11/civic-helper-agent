@@ -6,10 +6,12 @@ class InMemoryHistory:
         self.history = []
 
     def add_user_message(self, content):
-        self.history.append({"role": "user", "parts": [content]})
+    
+        self.history.append({"role": "user", "parts": [{"text": content}]})
 
     def add_model_message(self, content):
-        self.history.append({"role": "model", "parts": [content]})
+    
+        self.history.append({"role": "model", "parts": [{"text": content}]})
 
     def get_history(self):
         return self.history
