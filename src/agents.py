@@ -37,7 +37,7 @@ def run_civic_agent(user_input: str):
     
     # Call Gemini
     response = client.models.generate_content(
-        model="gemini-2.0-flash-lite-preview-02-05", 
+        model="gemini-1.5-flash", 
         contents=history.get_history(),
         config=types.GenerateContentConfig(
             system_instruction=SYSTEM_PROMPT,
