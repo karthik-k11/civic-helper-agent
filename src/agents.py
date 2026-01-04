@@ -11,7 +11,7 @@ load_dotenv()
 api_key = os.getenv("GOOGLE_API_KEY")
 
 if not api_key:
-    raise ValueError("❌ GOOGLE_API_KEY not found in .env file!")
+    raise ValueError("GOOGLE_API_KEY not found in .env file!")
 
 client = genai.Client(api_key=api_key)
 
@@ -74,7 +74,7 @@ def run_civic_agent(user_input: str):
                 send_email_tool(**call.args)
                 
                 if "sent" not in final_output.lower():
-                    final_output += f"\n(System: ✅ Email successfully sent to {call.args.get('destination_dept')}.)"
+                    final_output += f"\n(System:Email successfully sent to {call.args.get('destination_dept')}.)"
 
     #Add to memory and return
     history.add_model_message(final_output)
