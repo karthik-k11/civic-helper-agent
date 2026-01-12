@@ -3,7 +3,7 @@
 ![Project Thumbnail](The_Civic_Helper_Thumbnail.png)
 
 ### 🏆 Project Pitch
-A specialized AI system designed to empower citizens by automatically drafting and dispatching professional letters to local government officials. It helps users resolve community issues like infrastructure repairs and public safety concerns by turning a complex bureaucratic process into a simple, friendly chat.
+In many cities, dangerous infrastructure issues remain unresolved simply because citizens don’t know how to file formal complaints. My system removes that barrier by acting as an AI civic assistant that interviews citizens, drafts official letters, and submits them to the government automatically — turning complaints into documented action requests.
 
 ---
 
